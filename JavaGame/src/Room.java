@@ -13,7 +13,11 @@ public class Room {
     private Gold gold;
     private Gemstone gemstone;
 
-    public Room(String description, Boss boss, Gold gold, Gemstone gemstone) {
+    public Room(String description, Creature creature, Gold gold, Gemstone gemstone) {
+        this.description = description;
+        this.creature = creature;
+        this.gold = gold;
+        this.gemstone = gemstone;
     }
 
     public Gold getGold() {
