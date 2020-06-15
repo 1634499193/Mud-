@@ -74,9 +74,9 @@ public class Game {
         System.out.println();
         System.out.println("你的属性:");
         if (person.getAttackMethod().equals("近战")) {
-            System.out.println("HP：" + person.getHP() + "近战伤害值：" + person.getNearDamage() + "金币：" + person.getWealth());
+            System.out.println("HP：" + person.getHP() + " 近战伤害值：" + person.getNearDamage() + " 金币：" + person.getWealth());
         } else {
-            System.out.println("HP：" + person.getHP() + "远程伤害值：" + person.getFarDamage() + "金币：" + person.getWealth());
+            System.out.println("HP：" + person.getHP() + " 远程伤害值：" + person.getFarDamage() + " 金币：" + person.getWealth());
         }
         System.out.println();
         if (currentRoom.getCreature() != null) {
@@ -93,9 +93,9 @@ public class Game {
         System.out.println();
         System.out.println("你的属性:");
         if (person.getAttackMethod().equals("近战")) {
-            System.out.println("HP：" + person.getHP() + "近战伤害值：" + person.getNearDamage() + "金币：" + person.getWealth());
+            System.out.println("HP：" + person.getHP() + " 近战伤害值：" + person.getNearDamage() + " 金币：" + person.getWealth());
         } else {
-            System.out.println("HP：" + person.getHP() + "远程伤害值：" + person.getFarDamage() + "金币：" + person.getWealth());
+            System.out.println("HP：" + person.getHP() + " 远程伤害值：" + person.getFarDamage() + " 金币：" + person.getWealth());
         }
         System.out.println();
         System.out.println("-------------神秘商人出现-------------");
